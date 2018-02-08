@@ -3,9 +3,9 @@
 namespace OpenSpaceLife\Http\Controllers\Auth;
 
 use OpenSpaceLife\User;
-use OpenSpaceLife\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
+use OpenSpaceLife\Http\Controllers\Controller;
 
 class RegisterController extends Controller
 {
