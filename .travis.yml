@@ -8,6 +8,8 @@ before_script:
   - composer install --no-interaction
 
 services:
+  addons:
+    mariadb: '10.0'
 
 cache:
   directories:
