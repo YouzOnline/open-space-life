@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace OpenSpaceLife;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
