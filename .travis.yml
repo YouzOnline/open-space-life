@@ -11,11 +11,8 @@ before_script:
   - composer install --no-interaction
   - php artisan key:generate
 
-services:
-  - mysql
-
 addons:
-  mariadb: '10.0'
+  mariadb: '10.2'
 
 cache:
   directories:
