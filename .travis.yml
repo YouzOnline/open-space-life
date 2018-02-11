@@ -12,8 +12,7 @@ before_script:
   - php artisan key:generate
 
 services:
-  addons:
-    mariadb: '10.0'
+  - mysql
 
 cache:
   directories:
